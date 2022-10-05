@@ -1,0 +1,451 @@
+<!-- colors -->
+<!--  xl:bg-red-500 lg:bg-lime-400 md:bg-purple-500 sm:bg-pink-500 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FASHION</title>
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body class="">
+    <header class="max-w-[90%] mx-auto mt-12 md:leading-10">
+      <nav class="flex flex-row items-center justify-between">
+        <div class="flex lg:gap-3 md:gap-1 items-center">
+          <img src="public/images/logo.svg" alt="" />
+          <h1
+            class="uppercase font-poppins lg:text-4xl font-black lg:leading-[60px] tracking-[0.03em] md:text-3xl"
+          >
+            FASHION
+          </h1>
+        </div>
+
+        <div
+          class="md:flex xl:gap-16 lg:gap-8 md:gap-4 text-Lightblack-primary link items-center hidden"
+        >
+          <a href="#" class="link-btn"> CATALOGUE </a>
+          <a href="#" class="link-btn">FASHION</a>
+          <a href="#" class="link-btn">FAVOURITE</a>
+          <a href="#" class="link-btn">LIFESTYLE</a>
+          <a
+            href="#"
+            class="text-white bg-black px-4 pt-3 pb-4 rounded-lg lg:text-2xl md:text-[20px] lg:leading-9 lg:tracking-tight md:tracking-[-0.05em] hover:bg-Lightblack-hover hover:transition-all hover:drop-shadow-2xl"
+            >SIGN UP</a
+          >
+        </div>
+        <div class="flex md:hidden">
+          <img src="/public/images/menu.png" alt="" />
+        </div>
+      </nav>
+    </header>
+    <main style="box-sizing: border-box">
+      <section
+        id="hero"
+        style="box-sizing: border-box"
+        class="max-w-[90%] mx-auto flex bg-lightGray rounded-[59px] mt-14"
+      >
+        <div
+          class="flex flex-col mt-20 lg:ml-[119px] lg:min-w-[45%] pb-[90px] w-full items-center justify-center lg:items-start lg:justify-start"
+          id="text-area"
+        >
+          <h1
+            class="text-4xl md:text-8xl md:leading-[120px] uppercase lg:text-6xl lg:leading-[90px] xl:text-8xl xl:leading-[120px] font-black bg-white -ml-6 px-6 -rotate-2"
+          >
+            LET’S
+          </h1>
+          <h1
+            class="text-4xl md:text-8xl md:leading-[120px] uppercase lg:text-6xl lg:leading-[90px] xl:text-8xl xl:leading-[120px] font-black"
+          >
+            EXPLORE
+          </h1>
+          <h1
+            class="text-4xl md:text-8xl md:leading-[120px] uppercase lg:text-6xl lg:leading-[90px] xl:text-8xl xl:leading-[120px] font-black bg-lightYellow -ml-6 px-6 -rotate-2"
+          >
+            UNIQUE
+          </h1>
+          <h1
+            class="text-4xl md:text-8xl md:leading-[120px] uppercase lg:text-6xl lg:leading-[90px] xl:text-8xl xl:leading-[120px] font-black"
+          >
+            CLOTHES.
+          </h1>
+          <p
+            class="mt-11 mb-8 text-1xl md:text-3xl leading-10 tracking-tighter text-center md:text-start"
+          >
+            Live for Influential and Innovative fashion!
+          </p>
+          <div class="flex md:flex-row flex-col gap-8">
+            <img src="/public/images/hero-vector.svg" alt="" />
+            <button
+              class="text-white bg-black xl:text-3xl xl:leading-[45px] lg:text-2xl lg:leading-6 tracking-tighter font-medium rounded-xl px-10 py-[19px] hover:bg-Lightblack-hover hover:transition-all hover:drop-shadow-2xl"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+
+        <!-- image Section -->
+        <div
+          class="hidden lg:flex lg:justify-end md:items-end min-w-[20%]"
+          id="image-area"
+        >
+          <img
+            class="z-50 xl:max-h-full xl:h-full lg:max-h-[80%] lg:h-[80%] pr-20"
+            src="/public/images/hero_image.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section id="partners" class="bg-lightYellow">
+        <div
+          class="flex flex-row flex-wrap mt-16 justify-between items-center mx-40 py-16"
+        >
+          <img
+            src="/public/images/Rectangle 36.svg"
+            alt=""
+            style="mix-blend-mode: multiply"
+          />
+          <img
+            src="/public/images/Rectangle 44.png"
+            alt=""
+            style="mix-blend-mode: multiply"
+          />
+          <img
+            src="/public/images/Rectangle 38.png"
+            alt=""
+            style="mix-blend-mode: multiply"
+          />
+          <img
+            src="/public/images/Rectangle 45.png"
+            alt=""
+            style="mix-blend-mode: multiply"
+          />
+          <img
+            src="/public/images/Rectangle 43.png"
+            alt=""
+            style="mix-blend-mode: multiply"
+          />
+          <img
+            src="/public/images/Rectangle 41.png"
+            alt=""
+            style="mix-blend-mode: multiply"
+          />
+        </div>
+      </section>
+      <section id="new_arrivals" class="mt-16 mx-24">
+        <!-- Header -->
+        <span class="text-4xl sm:text-5xl relative">
+          NEW ARRIVALS
+          <img
+            src="/public/images/hero-vector.svg"
+            alt=""
+            width="180"
+            class="hidden sm:block absolute -right-8 top-10 -z-10"
+          />
+        </span>
+
+        <!-- Cards -->
+        <div
+          class="flex flex-col md:flex-row gap-[90px] max-w-full justify-between mt-24"
+        >
+          <!-- First Card -->
+          <div class="flex flex-col gap-7">
+            <img
+              src="/public/images/Rectangle 20.jpg"
+              alt=""
+              class="max-h-[552px] rounded-2xl object-cover"
+            />
+            <div
+              class="flex flex-row justify-center sm:items-start items-center sm:justify-between"
+            >
+              <div class="flex flex-col sm:items-start items-center">
+                <h1 class="text-[16px] sm:text-3xl md:text-[18px] lg:text-3xl">
+                  Hoodies & Sweetshirt
+                </h1>
+                <p class="text-[14px] text-2xl md:text-[14px] lg:text-2xl">
+                  Explore Now!
+                </p>
+              </div>
+              <img
+                class="hidden sm:block"
+                src="/public/images/Arrow.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- end of first card -->
+          <!-- second card -->
+
+          <div class="flex flex-col gap-7">
+            <img
+              src="/public/images/Rectangle 21.jpg"
+              alt=""
+              class="max-h-[552px] rounded-2xl object-cover"
+            />
+            <div
+              class="flex flex-row justify-center items-center sm:items-start sm:justify-between"
+            >
+              <div class="flex flex-col sm:items-start items-center">
+                <h1 class="text-[16px] text-3xl md:text-[18px] lg:text-3xl">
+                  Coats & Parkas
+                </h1>
+                <p class="text-[14px] text-2xl md:text-[14px] lg:text-2xl">
+                  Explore Now!
+                </p>
+              </div>
+              <img
+                class="hidden sm:block"
+                src="/public/images/Arrow.svg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!-- end of second card -->
+
+          <!-- class="max-w-[342px] max-h-[452px] rounded-[9px]" -->
+          <!-- Third Card -->
+          <div class="flex flex-col gap-7">
+            <img
+              src="/public/images/Rectangle 22.jpg"
+              alt=""
+              class="max-h-[552px] rounded-2xl object-cover"
+            />
+            <div
+              class="flex flex-row justify-center items-center sm:items-start sm:items-start sm:justify-between"
+            >
+              <div class="flex flex-col items-center sm:items-start">
+                <h1 class="text-[16px] text-3xl md:text-[18px] lg:text-3xl">
+                  Tees & T-Shirt
+                </h1>
+                <p class="text-[14px] text-2xl md:text-[14px] lg:text-2xl">
+                  Explore Now!
+                </p>
+              </div>
+              <img
+                class="hidden sm:block"
+                src="/public/images/Arrow.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- end of third card -->
+        </div>
+      </section>
+
+      <section id="sale_now" class="gradient-background mt-40 py-5 md:py-0">
+        <div class="flex flex-row justify-center md:justify-between xl:px-5%">
+          <!-- image -->
+          <div>
+            <img
+              src="/public/images/salenow.png"
+              alt=""
+              class="hidden md:block max-h-full object-cover"
+            />
+          </div>
+          <!-- end image -->
+          <!-- start of the content -->
+          <div
+            class="flex flex-col md:mr-36 items-center md:items-start justify-center gap-4 px-2"
+          >
+            <div class="flex flex-col">
+              <h1
+                class="text-4xl md:text-4xl md:leading-[60px] md:max-w-[200px] lg:max-w-full uppercase lg:text-6xl lg:leading-[90px] xl:text-7xl xl:leading-[100px] font-black bg-white -ml-3 px-3 -rotate-2"
+              >
+                PAYDAY
+              </h1>
+              <h1
+                class="text-4xl md:text-4xl md:leading-[60px] uppercase lg:text-6xl lg:leading-[90px] xl:text-7xl xl:leading-[100px] font-black"
+              >
+                SALE NOW
+              </h1>
+            </div>
+            <div class="flex flex-col">
+              <p
+                class="xl:text-3xl lg:text-2xl tracking-tight text-center md:text-left"
+              >
+                Spend minimal $100 get 30% off voucher code for your next
+                purchase
+              </p>
+            </div>
+            <div class="flex flex-col mt-10 text-center md:text-left">
+              <p class="xl:text-2xl lg:text-base font-bold">
+                1 June - 10 June 2021
+              </p>
+              <p class="xl:text-2xl lg:text-base">*Terms & Conditions apply</p>
+            </div>
+            <div class="flex">
+              <button
+                class="text-white bg-black xl:text-2xl xl:leading-[45px] lg:text-base lg:leading-6 tracking-tighter font-medium rounded-xl px-7 py-[9px] hover:bg-Lightblack-hover hover:transition-all hover:drop-shadow-2xl"
+              >
+                SHOP NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="favorites" class="py-32 px-16">
+        <!-- Header -->
+        <div class="mb-24">
+          <span class="text-2xl sm:text-5xl relative">
+            Young's Favorite
+            <img
+              src="/public/images/hero-vector.svg"
+              alt=""
+              width="180"
+              class="hidden sm:block absolute -right-8 top-10 -z-10"
+            />
+          </span>
+        </div>
+        <!-- Cards -->
+        <div class="flex flex-col sm:flex-row">
+          <div class="flex flex-col mr-12 gap-4 w-full mb-8 sm:mb-0 sm:w-auto">
+            <img src="/public/images/Rectangle 50.jpg" alt="" />
+            <div class="flex flex-row items-center justify-between">
+              <div class="flex flex-col">
+                <h1 class="text-xl"><strong>Trending on instagram</strong></h1>
+                <p>Explore Now!</p>
+              </div>
+              <img src="/public/images/Arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <img src="/public/images/Rectangle 49.png" alt="" />
+            <div class="flex flex-row items-center justify-between">
+              <div class="flex flex-col">
+                <h1 class="text-xl"><strong>Trending on instagram</strong></h1>
+                <p>Explore Now!</p>
+              </div>
+              <img src="/public/images/Arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="download_app"
+        class="lg:mx-52 mx-2 overflow-x-hidden lg:overflow-x-visible my-48"
+      >
+        <div
+          class="flex flex-row items-center justify-center md:justify-between"
+        >
+          <!-- App stores -->
+          <div class="flex flex-col">
+            <h1
+              style="font-size: clamp(2rem, 10vw, 3rem)"
+              class="mb-16 font-extrabold"
+            >
+              <strong
+                >DOWNLOAD APP &<br />
+                GET THE VOUCHER!</strong
+              >
+            </h1>
+            <p
+              style="font-size: clamp(1rem, 10vw, 1.2rem)"
+              class="mb-16 text-gray-500"
+            >
+              Get 30% off for first transaction using <br />
+              Rondovision mobile app for now.
+            </p>
+            <div
+              class="flex flex-col sm:flex-row gap-2 items-center sm:items-start"
+            >
+              <img src="/public/images/Rectangle 55.png" width="150" alt="" />
+              <img src="/public/images/Rectangle 18.png" width="150" alt="" />
+            </div>
+          </div>
+          <img
+            src="/public/images/Mobile app.png"
+            alt=""
+            class="hidden md:block"
+          />
+        </div>
+      </section>
+      <section id="newsletter" class="mt-28 text-center">
+        <div class="flex flex-col items-center text-white bg-darkYellow pb-32">
+          <h1 class="text-center text-4xl font-black mt-28 mb-5">
+            JOIN SHOPPING COMMUNITY TO <br />
+            GET MONTHLY PROMO
+          </h1>
+          <h3 class="text-2xl font-light mb-9 items-center">
+            Type your email down below and be young wild generation
+          </h3>
+          <!-- <div class="flex min-w-full justify-center"> -->
+          <div class="min-w-full text-center">
+            <input
+              class="py-3 min-w-[260px] sm:min-w-[300px] pl-5 rounded-lg inline text-gray-400"
+              type="text"
+              placeholder="Add your email here"
+            />
+            <button class="bg-black text-white px-5 py-2 rounded -ml-[90px]">
+              SEND
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-black text-white py-[119px]">
+      <!-- all data on the footer -->
+      <div
+        class="flex flex-col md:flex-row justify-between lg:mx-[100px] mx-[40px] gap-12 text-center md:text-left"
+      >
+        <!-- Fashion row -->
+        <div
+          class="flex flex-col gap-8 md:max-w-[300px] items-center md:items-start"
+        >
+          <h1 class="text-4xl font-black leading-[60px]">FASHION</h1>
+          <p class="" style="color: #8e8e8e">
+            Complete your style with awesome clothes from us.
+          </p>
+          <!-- social icons -->
+          <div class="flex flex-row gap-4 justify-center md:justify-start">
+            <a href="#" class="hover:opacity-75 hover:transition-all"
+              ><img src="public/images/fv.svg" alt=""
+            /></a>
+            <a href="#" class="hover:opacity-75 hover:transition-all"
+              ><img src="public/images/in.svg" alt=""
+            /></a>
+            <a href="#" class="hover:opacity-75 hover:transition-all"
+              ><img src="public/images/tw.svg" alt=""
+            /></a>
+            <a href="#" class="hover:opacity-75 hover:transition-all"
+              ><img src="public/images/ln.svg" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <!-- Company Row -->
+        <div
+          class="flex flex-row lg:gap-24 gap-12 justify-center md:justify-start"
+        >
+          <!-- company -->
+          <div class="flex flex-col gap-8">
+            <p style="color: #d9d9d9">Company</p>
+            <p style="color: #8e8e8e">About</p>
+            <p style="color: #8e8e8e">Contact us</p>
+            <p style="color: #8e8e8e">Support</p>
+            <p style="color: #8e8e8e">Careers</p>
+          </div>
+
+          <!-- Quick Link -->
+          <div class="flex flex-col gap-8">
+            <p style="color: #d9d9d9">Quick Link</p>
+            <p style="color: #8e8e8e">Share Location</p>
+            <p style="color: #8e8e8e">Order Tracking</p>
+            <p style="color: #8e8e8e">Size Guide</p>
+            <p style="color: #8e8e8e">FAQs</p>
+          </div>
+
+          <!-- Legal -->
+          <div class="flex flex-col gap-8">
+            <p style="color: #d9d9d9">Legal</p>
+            <p style="color: #8e8e8e">Terms & conditions</p>
+            <p style="color: #8e8e8e">Privacy Policy</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
